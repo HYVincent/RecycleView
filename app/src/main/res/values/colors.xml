@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 2017年5月14日11:19:46 -->
+    <color name="color_white_ffffff">#ffffff</color>
+    <color name="color_white_fafafa">#fafafa</color>
+    <color name="color_white_eeeeee">#eeeeee</color>
+    <color name="color_white_f1f3f4">#f1f3f4</color>
+    <color name="color_white_dedce0">#dedce0</color>
+    <color name="color_white_e0e2e8">#e0e2e8</color>
+
+
+    <color name="color_gray_cfd7e1">#cfd7e1</color>
+    <color name="color_gray_c5c7cc">#c5c7cc</color>
+    <color name="color_gray_c5c7ce">#c5c7ce</color>
+    <color name="color_gray_9fa1a9">#9fa1a9</color>
+    <color name="color_gray_888888">#888888</color>
+    <color name="color_gray_e0e0e0">#e0e0e0</color>
+    <color name="color_gray_9e9e9e">#9e9e9e</color>
+    <color name="color_gray_616161">#616161</color>
+    
+    <color name="color_black_646f7f">#646f7f</color>
+    <color name="color_black_3d4550">#3d4550</color>
+    <color name="color_black_3d444d">#3d444d</color>
+    <color name="color_black_212121">#212121</color>
+
+
+
+    <color name="color_orangered_ff5500">#ff5500</color>
+    <color name="color_orangered_ff5002">#ff5002</color>
+    <color name="color_red_ff6464">#ff6464</color>
+
+    <color name="color_blue_778df1">#778df1</color>
+    <color name="color_blue_6471f4">#6471f4</color>
+    <color name="color_blue_4562e9">#4562e9</color>
+    <color name="color_blue_0064e9">#0064e9</color>
+
+    <color name="color_blue_1296db">#1296db</color>
+
+
+    <color name="color_green_8ec31f">#8ec31f</color>
+    <color name="color_green_73aa00">#73aa00</color>
+    <color name="color_green_89c018">#89c018</color>
+
+    <color name="color_yellow_f5ae53">#f5ae53</color>
+
+    <color name="color_translucent_39000000">#39000000</color>
+
+</resources>

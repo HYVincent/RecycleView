@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="?attr/actionBarSize" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="fly学院"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <!--底部操作栏-->
+    <LinearLayout
+        android:id="@+id/ll_buttom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/color_white_f1f3f4"
+        android:orientation="vertical"
+        app:layout_behavior="com.hud.help.uitl.FooterBehaviorDependAppBar"
+        android:gravity="center_vertical">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_5"
+            android:layout_marginRight="@dimen/size_5"
+            android:layout_marginTop="@dimen/size_5"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/frg_tv_1"
+                    android:layout_width="1dip"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape_background_white1"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/color_black_3d4550"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/frg_tv_2"
+                    android:layout_width="1dip"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_background_white1"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/color_black_3d4550"
+                    android:textSize="16sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_5"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/frg_tv_3"
+                    android:layout_width="1dip"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape_background_white1"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/color_black_3d4550"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/frg_tv_4"
+                    android:layout_width="1dip"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_background_white1"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/color_black_3d4550"
+                    android:textSize="16sp"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
